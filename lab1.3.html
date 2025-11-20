@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- Таблиця з топ-20 мультфільмів Disney -->
+<html>
+<head>
+  <title>Топ 20 мультфільмів Disney</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<h1 align="center">Топ 20 найпопулярніших мультфільмів Disney</h1> <!-- Заголовок по центру -->
+
+<table border="5" align="center" bgcolor="#ffffff" width="90%"> <!-- Таблиця по центру, ширина 90% сторінки -->
+  <caption><b>Найпопулярніші мультфільми Disney</b></caption> <!-- Назва таблиці -->
+  <thead bgcolor="#ccffcc"> <!-- Заголовок таблиці з зеленим фоном -->
+    <tr>
+      <th>№</th>
+      <th>Назва мультфільму</th>
+      <th>Рік виходу</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Король Лев</td><td>1994</td></tr>
+    <tr><td>2</td><td>Крижане серце</td><td>2013</td></tr>
+    <tr><td>3</td><td>Красуня і чудовисько</td><td>1991</td></tr>
+    <tr><td>4</td><td>Аладдін</td><td>1992</td></tr>
+    <tr><td>5</td><td>Русалонька</td><td>1989</td></tr>
+    <tr><td>6</td><td>Попелюшка</td><td>1950</td></tr>
+    <tr><td>7</td><td>Білосніжка та семеро гномів</td><td>1937</td></tr>
+    <tr><td>8</td><td>Моана (Ваяна)</td><td>2016</td></tr>
+    <tr><td>9</td><td>Зоотрополіс</td><td>2016</td></tr>
+    <tr><td>10</td><td>Рапунцель: Заплутана історія</td><td>2010</td></tr>
+    <tr><td>11</td><td>Мулан</td><td>1998</td></tr>
+    <tr><td>12</td><td>Геркулес</td><td>1997</td></tr>
+    <tr><td>13</td><td>Тарзан</td><td>1999</td></tr>
+    <tr><td>14</td><td>Ліло і Стіч</td><td>2002</td></tr>
+    <tr><td>15</td><td>У пошуках Немо</td><td>2003</td></tr>
+    <tr><td>16</td><td>Рататуй</td><td>2007</td></tr>
+    <tr><td>17</td><td>Корпорація монстрів</td><td>2001</td></tr>
+    <tr><td>18</td><td>Вгору</td><td>2009</td></tr>
+    <tr><td>19</td><td>Душа</td><td>2020</td></tr>
+    <tr><td>20</td><td>Енканто</td><td>2021</td></tr>
+  </tbody>
+</table>
+<script src="lab3.js"></script>
+
+<!-- Вбудований скрипт для запуску функції Інформації Дня після завантаження -->
+<script>
+    // Ця функція displayRandomQuote знаходиться у зовнішньому файлі lab2_scripts.js
+    // FIX: Обгортаємо виклик в анонімну функцію, щоб уникнути ReferenceError
+    window.onload = function() {
+        displayRandomQuote();
+    }; 
+</script>
+</body>
+</html>
